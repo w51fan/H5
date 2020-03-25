@@ -1,16 +1,22 @@
 <template>
   <div id="app">
-    <index/>
+    <!-- <equityList/> -->
+    <router-view/>
   </div>
 </template>
 
 <script>
-import index from './components/index.vue'
+// import index from './components/index.vue'
+// import service from './components/service.vue'
+import equityList from './components/equityList.vue'
+
 
 export default {
   name: 'App',
   components: {
-    index
+    // index,
+    // service,
+    equityList
   }
 }
 </script>

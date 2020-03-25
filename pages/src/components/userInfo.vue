@@ -1,11 +1,11 @@
 <template>
-  <div class="servicePage"></div>
+  <div class="userInfoPage"></div>
 </template>
 
 <script>
 // import btn from "./btn.vue";
 export default {
-  name: "service",
+  name: "userInfo",
   components: {
     btn
   },
@@ -18,7 +18,7 @@ export default {
 
 
 <style lang="less" scoped>
-.servicePage {
+.userInfoPage {
   display: flex;
 }
 </style> 
